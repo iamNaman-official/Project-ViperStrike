@@ -62,7 +62,7 @@ local_engine = LiteLLMModel(
 )
 agent = CodeAgent(
     tools=[run_diagnostic], 
-    model=secondary_engine, 
+    model=local_engine, 
     add_base_tools=False,
     max_steps=3
 )
