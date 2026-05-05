@@ -1,0 +1,6 @@
+smolagents
+litellm
+python-dotenv
+requests
+langfuse
+"openinference[smolagents]"
